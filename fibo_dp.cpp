@@ -42,7 +42,7 @@ int main(){
 	cin>>n;
 	int a[n+1];
 	for(int i=0; i<=n; i++) {
-		cout<<i<<" : "<<fib3(i)<<endl;
+		cout<<i<<" : "<<fib2(50, a)<<endl;
 	}
 	return 0;
 }
