@@ -5,3 +5,12 @@ void func(vector<int> &vect)
 } 
 
 func(vect); 
+
+
+// check if number is present in a set. it return 0 if not present 
+and 1 if it is present in the set;
+set<int> s{1,2,3,4,5};
+s.count(4)
+
+
+// Declaring array to store frequency of any number
